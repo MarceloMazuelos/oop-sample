@@ -32,5 +32,4 @@ public record Money
     // Override ToString for better readability with $"{}"
     public override string ToString() => $"{Amount} {Currency}";
     
-    
 };
